@@ -1,0 +1,54 @@
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  width: 50%;
+  height: 30%;
+  border: 1px solid;
+  padding: 8px 24px;
+  border-radius: 8px;
+  box-shadow: 34px 28px 0px 50vh rgba(0,0,0,0.4);
+}
+
+.container form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 80%;
+}
+
+.field {
+  flex: 0 0 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.field input {
+  padding: 8px;
+  width: 90%;
+}
+
+.save_btn,
+.close_btn {
+  background-color: rgba(0, 128, 0, 0.625);
+  color: white;
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 4px;
+  width: 100px;
+  cursor: pointer;
+}
+
+.close_btn {
+  background-color: red;
+  margin-right: 8px;
+}
+
+.btn_wrapper{
+  display: flex;
+  justify-content: flex-end;
+}

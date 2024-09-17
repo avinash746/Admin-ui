@@ -1,0 +1,8 @@
+.delete_all_btn{
+    padding: 4px 8px;
+    background-color: red;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}

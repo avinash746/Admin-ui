@@ -1,0 +1,17 @@
+.pagination_btn{
+    padding: 4px 8px;
+    background-color: #333333be;
+    color: white;
+    border: none;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.pagination_btn1{
+    padding: 4px 8px;
+    background-color: #33333368;
+    color: white;
+    border: none;
+    margin: 4px;
+    cursor: pointer;
+}

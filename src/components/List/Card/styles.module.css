@@ -1,0 +1,17 @@
+.row td {
+  text-align: left;
+  padding: 16px 12px;
+}
+
+.row:hover {
+  background-color: aliceblue;
+}
+
+.selected {
+  background-color: aliceblue;
+}
+
+.button {
+  all: unset;
+  cursor: pointer;
+}
